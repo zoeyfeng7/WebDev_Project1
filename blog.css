@@ -1,0 +1,30 @@
+.blog-container,
+#blog-intro,
+#featured-posts {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #f3e5f5;
+}
+
+.blog-title,
+.blog-item-title {
+  color: #343a40;
+}
+
+.blog-description,
+.blog-item-summary,
+.blog-item-readmore {
+  margin: 15px 0;
+}
+
+.blog-item {
+  transition: box-shadow 0.3s ease;
+}
+
+.blog-item:hover {
+  box-shadow: 0 5px 15px white;
+}

@@ -1,0 +1,44 @@
+.about-me-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+.about-me-container p {
+  color: #333;
+}
+
+.about-me-container a {
+  color: #673ab7;
+  text-decoration: underline;
+}
+
+.about-me-container a:hover {
+  color: #9575cd;
+}
+
+.school-info-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: #9575cc;
+  font-family: "Century Gothic", century, sans-serif;
+}
+
+.school-info-container h2,
+.school-info-container p {
+  margin: 10px 0;
+}
+
+.school-info-container p {
+  font-size: 1.1rem;
+  color: #333;
+}

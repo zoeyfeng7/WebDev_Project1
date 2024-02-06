@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yun Feng Personal Website</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me - Yun Feng</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blog.css" />
+</head>
+<body>
     <nav class="navbar">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="aboutMe.html">About Me</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
     </nav>
-  </body>
-</html>
+
+    <header id="home">
+        <div class="main">
+            <h1 class="headings">Welcome to Yun Feng's Blog</h1>
+            <p>Discover my latest posts about technology, coding, and design.</p>
+            <button class="btn" onclick="window.location.href='#featured-posts';">Explore</button>
+        </div>
+    </header>
+
+    <!-- Blog Introduction -->
+    <section id="blog-intro">
+        <div class="container">
+            <h2>About This Blog</h2>
+            <p>This blog shares insights into my journey as a developer, tips and tricks for coding, technology trends, and design inspirations. </p>
+        </div>
+    </section>
+
+    <!-- Featured Posts -->
+    <section id="featured-posts" class="container">
+        <h2>Featured Posts</h2>
+        <article>
+            <h3>Discussion: How to optimize CSS for better web performance</h3>
+            <p>Posted on <time datetime="2024-01-24">January 24, 2024</time></p>
+            <p>https://www.builder.io/blog/the-complete-guide-to-optimizing-css-for-fast-page-loads
+
+                The article provides an in-depth guide on how to optimize CSS for fast page loads, underscoring its vital role in enhancing website performance. It delves into the complexities of CSS, particularly its impact on web rendering, and details a suite of effective strategies aimed at boosting site speed. Key techniques discussed include minimizing CSS file size, eliminating unused CSS, and employing advanced methods such as preloading, server pushing, and prioritizing critical CSS to accelerate page rendering. The guide also delves into the realm of automated optimization tools, highlighting the synergy between manual tactics and automated solutions in enhancing user experience and website interactivity.
+                
+                In my opinion, the article's guidance on CSS optimization is really useful for anyone who wants to improve their website's performance. It's interesting to see how crucial CSS is for making sites load faster. However, some of the ideas, such as understanding the critical rendering path, prioritizing critical CSS, and using advanced techniques like CSS preloading and server push, seem a bit complicated for people just starting out with web development. Additionally, concepts like CSSOM, managing render-blocking resources, and implementing automated tools for optimization like Styled-components or Emotion can also be challenging. Getting these right seems like it needs a good amount of practice and a deeper understanding of how browsers render pages. Overall, the recommendations in the articles could be great resources for learning more about web development.</p>
+            <a href="
