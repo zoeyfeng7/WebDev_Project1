@@ -1,30 +1,42 @@
-.blog-container,
-#blog-intro,
 #featured-posts {
   width: 100%;
   max-width: 1200px;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 40px auto;
+  padding: 40px;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 4px #f3e5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.blog-title,
-.blog-item-title {
+#featured-posts h2 {
+  margin-bottom: 30px;
   color: #343a40;
+  font-size: 2.2rem;
 }
 
-.blog-description,
-.blog-item-summary,
-.blog-item-readmore {
-  margin: 15px 0;
+#featured-posts h3 {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
 }
 
-.blog-item {
-  transition: box-shadow 0.3s ease;
+#featured-posts p,
+#featured-posts a {
+  margin: 10px 0 20px;
+  line-height: 1.6;
 }
 
-.blog-item:hover {
-  box-shadow: 0 5px 15px white;
+#featured-posts article {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+#featured-posts a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+#featured-posts p {
+  font-size: 1rem;
 }
